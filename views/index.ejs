@@ -42,27 +42,66 @@
                 <p>That led me back into web development again because it was my true passion and a part of my dream. Since then, I have built over 30 projects to date. I decided to start my own business, filed my business and been doing it for 2 years. Mainly did consult and fixing issues with web functionality, upgrading CMS and migrating from static to dynamic. Then at the beginning of this year, I decided to make a business change from service to app developing</p>
                 <p>When I am not working on web development project, I spend time with my family, and do all fun outdoors activities: Fishing, Hunting, Camping, and Hiking. We hope to add boating one day.  I have two sons and a wife who is my best friend since High School. Also, I rock the flight simulator as hobbyist and dream of building a Boeing 737 NGX home cockpit.</p>
             </div>
-        </div>
-        <hr>
-        <h2>Works</h2>
-        <h3>Website Projects</h3>
-        <p>Array of projects</p>
-        <h3>Web App Projects</h3>
-        <p>Array of Web Apps</p>
-        <hr>
-        <div id='forhire'>
-            <h2>For Hire</h2>
-            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="mrestine">
-                <a class="LI-simple-link" href='https://www.linkedin.com/in/mrestine?trk=profile-badge'>Matthew Restine</a>
+            <div id='works'>
+                <h2>Works</h2>
+                <div id='web_app_projects'>
+                    <h3>My Web Projects</h3>
+                    <div id="web_apps" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#web_apps" data-slide-to="0" class="active"></li>
+                            <li data-target="#web_apps" data-slide-to="1"></li>
+                            <li data-target="#web_apps" data-slide-to="2"></li>
+                            <li data-target="#web_apps" data-slide-to="3"></li>
+                            <li data-target="#web_apps" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <a href='https://codepen.io/mattrestine/full/vgxVjO' target='_blank'><img src='https://codepen.io/mattrestine/pen/vgxVjO/image/large.png' alt='The Great RGB Guessing Game'></a>
+                            </div>
+                            <div class="item">
+                                <a href='https://codepen.io/mattrestine/full/wgRwbO' target='_blank'><img src='https://codepen.io/mattrestine/pen/wgRwbO/image/large.png' alt='Basic To-Do'></a>
+                            </div>
+                            <div class="item">
+                                <a href='https://codepen.io/mattrestine/full/vyQKRd' target='_blank'><img src='https://codepen.io/mattrestine/pen/vyQKRd/image/large.png' alt='Random Quote Generator'></a>
+                            </div>
+                            <div class="item">
+                                <a href='https://codepen.io/mattrestine/full/LbvRLR' target='_blank'><img src='https://codepen.io/mattrestine/pen/LbvRLR/image/large.png' alt='Wikipedia Viewer'></a>
+                            </div>
+                            <div class="item">
+                                <a href='https://codepen.io/mattrestine/full/OWRgXq' target='_blank'><img src='https://codepen.io/mattrestine/pen/OWRgXq/image/large.png' alt='Random Color'></a>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#web_apps" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#web_apps" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <p>Downloadable Resume (two formats)</p>
-            <p>Rates if contract hire</p>
+            <div id='forhire'>
+                <h2>For Hire</h2>
+                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="mrestine">
+                    <a class="LI-simple-link" href='https://www.linkedin.com/in/mrestine?trk=profile-badge'>Matthew Restine</a>
+                </div>
+                <div id='resume'>
+                    <h4>Resume</h4>
+                    <div id='resume_btn'>
+                        <button class='btn btn-primary'>Word Doc</button>
+                        <button class='btn btn-danger'>Adobe PDF</button>
+                    </div>
+                </div>
+            </div>
+            <div id='blogs'>
+                <h2>Blogs</h2>
+                <p>Array of blogs, display latest (3 blogs) in order</p>
+            </div>
         </div>
-        <hr>
-        <h2>Blogs</h2>
-        <p>Array of blogs, display latest (3 blogs) in order</p>
-        <!-- Scripts -->
-        <script type='text/javascipt' src='jquery/dist/jquery.min.js'></script>
+        <script type='text/javascript' src='jquery/dist/jquery.min.js'></script>
+        <script type='text/javascript' src='bootstrap/dist/js/bootstrap.min.js'></script>
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     </body>
 </html>
