@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "description": "Showcase of projects for Web Development",
+  "main": "server.js",
+  "authors": [
+    "Matthew Restine"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mattrestine/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
